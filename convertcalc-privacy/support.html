@@ -42,9 +42,33 @@
     }
 
     h1 {
-      margin-bottom: 10px;
+      margin-bottom: 6px;
       font-size: 1.8rem;
       font-weight: 700;
+    }
+
+    /* --- Navigation pills --- */
+    .links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .pill {
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      background: #f7f7f8;
+      color: var(--text);
+      transition: background 0.15s ease;
+    }
+
+    .pill:hover {
+      background: #f0f0f2;
     }
 
     p {
@@ -93,8 +117,16 @@
         --subtle: #a1a1aa;
         --border: #2a2a2e;
       }
-      a { background: #1a1a1f; }
-      a:hover { background: #232329; }
+
+      .pill,
+      a {
+        background: #1a1a1f;
+      }
+
+      .pill:hover,
+      a:hover {
+        background: #232329;
+      }
     }
   </style>
 </head>
@@ -103,6 +135,12 @@
   <div class="wrap">
     <main class="card">
       <h1>ConvertCalc Support</h1>
+
+      <!-- Navigation -->
+      <div class="links">
+        <a class="pill" href="https://alx-ryan.github.io/">Home</a>
+        <a class="pill" href="https://alx-ryan.github.io/convertcalc-privacy/">Privacy Policy</a>
+      </div>
 
       <p>
         If you need help with ConvertCalc or have questions,
