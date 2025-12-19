@@ -10,7 +10,9 @@
       --accent: #0a84ff;
       --text: #111;
       --subtle: #666;
+      --border: #e5e5e7;
       --bg: #ffffff;
+      --card: #ffffff;
     }
 
     body {
@@ -21,7 +23,7 @@
       color: var(--text);
     }
 
-    .container {
+    .wrap {
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -30,22 +32,26 @@
     }
 
     .card {
-      max-width: 420px;
       width: 100%;
+      max-width: 420px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
       text-align: center;
     }
 
     h1 {
+      margin: 0 0 8px;
       font-size: 2rem;
-      margin-bottom: 0.5rem;
       font-weight: 700;
+      letter-spacing: -0.02em;
     }
 
     p {
-      font-size: 1rem;
-      line-height: 1.5;
+      margin: 0 0 20px;
       color: var(--subtle);
-      margin-bottom: 1.5rem;
+      line-height: 1.5;
     }
 
     .links {
@@ -57,11 +63,12 @@
     a {
       text-decoration: none;
       padding: 12px 16px;
-      border-radius: 10px;
+      border-radius: 12px;
       font-weight: 500;
-      border: 1px solid #ddd;
+      border: 1px solid var(--border);
       color: var(--text);
-      transition: background 0.15s ease, border-color 0.15s ease;
+      background: #f7f7f8;
+      transition: background 0.15s ease;
     }
 
     a.primary {
@@ -71,7 +78,7 @@
     }
 
     a:hover {
-      background: #f5f5f5;
+      background: #f0f0f2;
     }
 
     a.primary:hover {
@@ -79,16 +86,28 @@
     }
 
     footer {
-      margin-top: 24px;
+      margin-top: 20px;
       font-size: 0.85rem;
       color: var(--subtle);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0d;
+        --card: #121214;
+        --text: #f4f4f5;
+        --subtle: #a1a1aa;
+        --border: #2a2a2e;
+      }
+      a { background: #1a1a1f; }
+      a:hover { background: #232329; }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="card">
+  <div class="wrap">
+    <main class="card">
       <h1>ConvertCalc</h1>
       <p>
         All-in-one calculator and unit converter with modern design,
@@ -96,15 +115,15 @@
       </p>
 
       <div class="links">
-        <a class="primary" href="https://apps.apple.com/us/app/convertcalc/id6756512186">View on the App Store</a>
-        <a href="/convertcalc-privacy/">Privacy Policy</a>
-        <a href="mailto:Support-ConvertCalc@proton.me">Contact Support</a>
+        <a class="primary" href="https://apps.apple.com/">View on the App Store</a>
+        <a href="https://alx-ryan.github.io/convertcalc-privacy/">Privacy Policy</a>
+        <a href="https://alx-ryan.github.io/convertcalc-privacy/support">Support</a>
       </div>
 
       <footer>
         © 2025 ConvertCalc
       </footer>
-    </div>
+    </main>
   </div>
 </body>
 </html>
