@@ -1,15 +1,110 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ConvertCalc</title>
-</head>
-<body>
-  <h1>ConvertCalc</h1>
-  <p>All-in-one calculator and unit converter.</p>
 
-  <p>
-    <a href="/privacy/">Privacy Policy</a>
-  </p>
+  <style>
+    :root {
+      --accent: #0a84ff;
+      --text: #111;
+      --subtle: #666;
+      --bg: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "SF Pro Display", Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--subtle);
+      margin-bottom: 1.5rem;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: 500;
+      border: 1px solid #ddd;
+      color: var(--text);
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    a.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    a:hover {
+      background: #f5f5f5;
+    }
+
+    a.primary:hover {
+      background: #006fe6;
+    }
+
+    footer {
+      margin-top: 24px;
+      font-size: 0.85rem;
+      color: var(--subtle);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>ConvertCalc</h1>
+      <p>
+        All-in-one calculator and unit converter with modern design,
+        powerful history, and customizable themes.
+      </p>
+
+      <div class="links">
+        <a class="primary" href="https://apps.apple.com/">View on the App Store</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="mailto:support-convertcalc@proton.me">Contact Support</a>
+      </div>
+
+      <footer>
+        © 2025 ConvertCalc
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
