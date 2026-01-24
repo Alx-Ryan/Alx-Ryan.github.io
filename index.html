@@ -123,14 +123,48 @@
       a:hover { background: #232329; }
       .app-icon { box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
     }
+
+    /* Logo Styles */
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    
+    .logo-bars {
+      display: flex;
+      gap: 6px;
+    }
+    
+    .bar {
+      width: 12px;
+      height: 48px;
+      background: var(--accent);
+      border-radius: 6px;
+      transform: skewY(-12deg);
+    }
+    
+    .bar:nth-child(1) { opacity: 0.4; height: 36px; margin-top: 6px; }
+    .bar:nth-child(2) { opacity: 0.7; }
+    .bar:nth-child(3) { opacity: 1.0; height: 36px; margin-top: 6px; }
+
   </style>
 </head>
 
 <body>
   <div class="wrap">
-    <header style="text-align: center; margin-bottom: 40px;">
-      <h1 style="font-size: 2.5rem; margin-bottom: 8px;">My Apps</h1>
-      <p style="font-size: 1.1rem; color: var(--subtle);">Independent apps by Alex Ryan</p>
+    <header style="text-align: center; margin-bottom: 48px;">
+      <div class="logo-container">
+        <div class="logo-bars">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <h1 style="font-size: 2.5rem; margin-bottom: 8px;">Alex Ryan</h1>
+      <p style="font-size: 1.1rem; color: var(--subtle); max-width: 600px; margin: 0 auto;">
+        Building useful, beautiful apps for everyday problems.
+      </p>
     </header>
 
     <div class="container">
