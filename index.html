@@ -148,6 +148,15 @@
     .bar:nth-child(2) { opacity: 0.7; }
     .bar:nth-child(3) { opacity: 1.0; height: 36px; margin-top: 6px; }
 
+    .name-gradient {
+      background: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: var(--accent);
+      display: inline-block;
+    }
+
   </style>
 </head>
 
@@ -161,7 +170,7 @@
           <div class="bar"></div>
         </div>
       </div>
-      <h1 style="font-size: 2.5rem; margin-bottom: 8px;">Alex Ryan</h1>
+      <h1 class="name-gradient" style="font-size: 2.5rem; margin-bottom: 8px;">Alex Ryan</h1>
       <p style="font-size: 1.1rem; color: var(--subtle); max-width: 600px; margin: 0 auto;">
         Building useful, beautiful apps for everyday problems.
       </p>
