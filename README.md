@@ -12,7 +12,8 @@ I enjoy turning everyday problems into lightweight tools people actually want to
 
 Here are some of my currently released apps. You can find screenshots and store links on my site:
 
-### ⏱ Hours Tracker – Work Log  
+## <img src="HoursTrackerIcon-iOS-Dark-1024x1024@1x.png" width="32">  Hours Tracker – Work Log  
+
 A clean and simple time tracking app for logging work hours and shifts.
 
 **Features:**
@@ -23,7 +24,8 @@ A clean and simple time tracking app for logging work hours and shifts.
 
 ---
 
-### 🔢 ConvertCalc  
+## <img src="ConvertCalc-iOS-Dark-1024x1024@1x.png" width="32">  ConvertCalc  
+
 A customizable calculator and unit converter with fun, aesthetic design options.
 
 **Features:**
@@ -31,7 +33,6 @@ A customizable calculator and unit converter with fun, aesthetic design options.
 - Custom button themes (cats, dogs, cute styles)  
 - Lightweight and fast  
 - Focus on usability + personality  
-
 ---
 
 *(More apps in development — see full list on my portfolio site)*  
