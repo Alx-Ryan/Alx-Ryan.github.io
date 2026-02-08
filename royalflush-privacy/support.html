@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Royal Flush Support</title>
+
+  <style>
+    :root {
+      --accent: #2d6a4f;
+      --text: #111;
+      --subtle: #666;
+      --border: #e5e5e7;
+      --bg: #ffffff;
+      --card: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "SF Pro Display", Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 6px;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+
+    /* --- Navigation pills --- */
+    .links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .pill {
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      background: #f7f7f8;
+      color: var(--text);
+      transition: background 0.15s ease;
+    }
+
+    .pill:hover {
+      background: #f0f0f2;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: var(--subtle);
+      line-height: 1.5;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 12px 16px;
+      border-radius: 12px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: #f7f7f8;
+      transition: background 0.15s ease;
+      display: inline-block;
+    }
+
+    a.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    a:hover {
+      background: #f0f0f2;
+    }
+
+    a.primary:hover {
+      background: #1b4332;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: var(--subtle);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0d;
+        --card: #121214;
+        --text: #f4f4f5;
+        --subtle: #a1a1aa;
+        --border: #2a2a2e;
+      }
+
+      .pill,
+      a {
+        background: #1a1a1f;
+      }
+
+      .pill:hover,
+      a:hover {
+        background: #232329;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <main class="card">
+      <h1>Royal Flush Support</h1>
+
+      <!-- Navigation -->
+      <div class="links">
+        <a class="pill" href="https://alx-ryan.github.io/">Home</a>
+        <a class="pill" href="https://alx-ryan.github.io/royalflush-privacy/">Privacy Policy</a>
+      </div>
+
+      <p>
+        If you need help with Royal Flush or have questions,
+        please contact us.
+      </p>
+
+      <a class="primary" href="mailto:Support-AlexRyanDev@pm.me?subject=Support - Royal Flush">
+        Email Support
+      </a>
+
+      <footer>
+        We typically respond within a reasonable timeframe.
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
