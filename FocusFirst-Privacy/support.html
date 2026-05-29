@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support – Focus First</title>
+
+  <link rel="icon" href="../FocusFirst-iOS-Dark-1024x1024@1x.png">
+
+  <style>
+    :root {
+      --accent: #2d6a4f;
+      --text: #111;
+      --subtle: #666;
+      --border: #e5e5e7;
+      --bg: #ffffff;
+      --card: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "SF Pro Display", Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 28px 18px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 760px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      box-sizing: border-box;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 18px;
+    }
+
+    .app-icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      margin: 0;
+      color: var(--subtle);
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      margin: 18px 0 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 10px 0;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--accent);
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: #f7f7f8;
+      font-weight: 500;
+      transition: background 0.15s ease;
+    }
+
+    .pill:hover {
+      background: #f0f0f2;
+    }
+
+    footer {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      color: var(--subtle);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0d;
+        --card: #121214;
+        --text: #f4f4f5;
+        --subtle: #a1a1aa;
+        --border: #2a2a2e;
+      }
+
+      .pill {
+        background: #1a1a1f;
+      }
+
+      .pill:hover {
+        background: #232329;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <main class="card">
+      <header>
+        <img
+          src="../FocusFirst-iOS-Dark-1024x1024@1x.png"
+          alt="Focus First Icon"
+          class="app-icon"
+        >
+
+        <h1>Support – Focus First</h1>
+        <p class="meta">Need help? Contact support below.</p>
+
+        <div class="links">
+          <a class="pill" href="/">Home</a>
+          <a class="pill" href="https://alx-ryan.github.io/focus-first-privacy/">Privacy Policy</a>
+        </div>
+      </header>
+
+      <p>
+        For help with Focus First, contact support by email.
+      </p>
+
+      <h2>Common Topics</h2>
+      <ul>
+        <li>Screen Time permissions</li>
+        <li>App blocking issues</li>
+        <li>Subscription questions</li>
+        <li>Reward unlock troubleshooting</li>
+        <li>Bug reports</li>
+        <li>Feature requests</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:Support-AlexRyanDev@pm.me?subject=Focus%20First%20Support">
+            Support-AlexRyanDev@pm.me
+          </a>
+        </li>
+      </ul>
+
+      <h2>Helpful Details</h2>
+      <p>Please include the following when contacting support:</p>
+      <ul>
+        <li>Your device model</li>
+        <li>Your iOS version</li>
+        <li>Your Focus First app version</li>
+        <li>A brief description of the issue</li>
+      </ul>
+
+      <footer>
+        © 2026 Focus First
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
