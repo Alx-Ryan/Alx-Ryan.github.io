@@ -1,71 +1,131 @@
-# 👋 Hi, I’m Alex (alx-ryan)
+<h1>👋 Hi, I'm Alex Ryan</h1>
 
-iOS Developer focused on building **simple, useful, and beautifully designed apps** with SwiftUI.  
-I enjoy turning everyday problems into lightweight tools people actually want to use.
+<p>
+  iOS developer building focused, practical apps with SwiftUI.
+  I turn everyday frustrations into simple, well-designed products that help people save time,
+  stay organized, and build better habits.
+</p>
 
-🔗 **Live app portfolio:**  
-👉 https://alx-ryan.github.io/
+<p>
+  🔗 <strong>Portfolio:</strong>
+  <a href="https://alx-ryan.github.io/">https://alx-ryan.github.io/</a>
+</p>
 
----
+<hr>
 
-## 📱 Published Apps
+<h2>📱 Apps</h2>
 
-Here are some of my currently released apps. You can find screenshots and store links on my site:
+<h3>
+  <img src="FocusFirst-iOS-Dark-1024x1024@1x.png" width="32" alt="Focus First icon">
+  Focus First
+</h3>
 
-## <img src="HoursTrackerIcon-iOS-Dark-1024x1024@1x.png" width="32">  Hours Tracker – Work Log  
+<p>
+  A productivity app that helps users reduce distracting screen time by earning app access
+  through focused work.
+</p>
 
-A clean and simple time tracking app for logging work hours and shifts.
+<ul>
+  <li>App blocking with Screen Time APIs</li>
+  <li>Focus timer and productivity tracking</li>
+  <li>Reward-based unlock system</li>
+  <li>Built with Family Controls, Device Activity, Managed Settings, and SwiftUI</li>
+</ul>
 
-**Features:**
-- Track work sessions easily  
-- iCloud sync  
-- Simple, distraction-free UI  
-- Built with SwiftUI + MVVM  
+<hr>
 
----
+<h3>
+  <img src="ConvertCalc-iOS-Dark-1024x1024@1x.png" width="32" alt="ConvertCalc icon">
+  ConvertCalc
+</h3>
 
-## <img src="ConvertCalc-iOS-Dark-1024x1024@1x.png" width="32">  ConvertCalc  
+<p>
+  A calculator and unit converter designed to be fast, customizable, and enjoyable to use.
+</p>
 
-A customizable calculator and unit converter with fun, aesthetic design options.
+<ul>
+  <li>Calculator and unit conversion tools</li>
+  <li>Custom themes and personalization</li>
+  <li>Clean, modern SwiftUI interface</li>
+  <li>Lightweight and privacy-friendly</li>
+</ul>
 
-**Features:**
-- Calculator + unit conversion  
-- Custom button themes (cats, dogs, cute styles)  
-- Lightweight and fast  
-- Focus on usability + personality  
----
+<hr>
 
-*(More apps in development — see full list on my portfolio site)*  
-👉 https://alx-ryan.github.io/
+<h3>
+  <img src="HoursTrackerIcon-iOS-Dark-1024x1024@1x.png" width="32" alt="Hours Tracker icon">
+  Hours Tracker
+</h3>
 
----
+<p>
+  A straightforward work log for tracking hours, mileage, earnings, and job notes.
+</p>
 
-## 🛠 Tech Stack
+<ul>
+  <li>Shift and work-hour tracking</li>
+  <li>Mileage logging</li>
+  <li>Reporting and summaries</li>
+  <li>iCloud sync</li>
+</ul>
 
-- Swift / SwiftUI  
-- MVVM Architecture  
-- CoreData & iCloud Sync  
-- Git & GitHub  
-- App Store Connect & In-App Purchases  
-- Localization (EN / JP)  
+<hr>
 
----
+<h3>
+  <img src="catThrone-iOS-Default-1024x1024@1x.png" width="32" alt="Poopy icon">
+  Poopy
+</h3>
 
-## 🎯 What I’m Working On
+<p>
+  A privacy-focused bowel movement tracker designed to help users better understand digestive health trends.
+</p>
 
-- Building small, focused iOS apps with clear value  
-- Improving UI/UX design systems  
-- Exploring monetization (one-time unlocks, tips, and simple subscriptions)  
-- Growing a portfolio of real shipped products  
+<ul>
+  <li>Fast daily logging</li>
+  <li>Trend analysis</li>
+  <li>Optional Apple Health integration</li>
+  <li>Local-first data storage</li>
+</ul>
 
----
+<hr>
 
-## 🌍 About Me
+<p>
+  📲 App Store links, screenshots, privacy policies, and support information:
+  <br>
+  <a href="https://alx-ryan.github.io/">https://alx-ryan.github.io/</a>
+</p>
 
-- Based in **Osaka, Japan 🇯🇵**  
-- Studying Japanese while building apps  
-- Interested in:  
-  - Productivity tools  
-  - Habit & time tracking  
-  - Fun utility apps  
-  - Language learning apps  
+<h2>🛠 Tech Stack</h2>
+
+<ul>
+  <li>Swift</li>
+  <li>SwiftUI</li>
+  <li>MVVM Architecture</li>
+  <li>Swift Concurrency</li>
+  <li>Core Data</li>
+  <li>CloudKit / iCloud Sync</li>
+  <li>Family Controls</li>
+  <li>Device Activity</li>
+  <li>Managed Settings</li>
+  <li>StoreKit</li>
+  <li>Git & GitHub</li>
+  <li>App Store Connect</li>
+</ul>
+
+<h2>🎯 Current Focus</h2>
+
+<ul>
+  <li>Building sustainable consumer iOS apps</li>
+  <li>Improving onboarding and retention</li>
+  <li>App Store Optimization</li>
+  <li>Subscription-based products</li>
+  <li>Productivity and habit-building tools</li>
+</ul>
+
+<h2>🌍 About Me</h2>
+
+<ul>
+  <li>Based in Osaka, Japan 🇯🇵</li>
+  <li>Studying Japanese</li>
+  <li>Building and shipping independent iOS apps</li>
+  <li>Interested in productivity, learning, health, and utility software</li>
+</ul>
