@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FocusFirst — App Blocker for iPhone That Lets You Earn Screen Time</title>
+<meta name="description" content="FocusFirst is the iPhone app blocker that makes you earn screen time. Block distracting apps like TikTok and Instagram, focus on what matters, and unlock scroll time as a reward. Subscription or Lifetime purchase required.">
+<link rel="canonical" href="https://alx-ryan.github.io/website/">
+<meta name="theme-color" content="#0d1309">
+<link rel="icon" type="image/png" href="images/app-icon.png">
+<link rel="apple-touch-icon" href="images/app-icon.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FocusFirst">
+<meta property="og:title" content="FocusFirst — Block Apps, Earn Screen Time">
+<meta property="og:description" content="The iPhone app blocker that rewards focus. Block distracting apps, put time into what matters, and earn your scroll time back. No guilt. Just progress.">
+<meta property="og:url" content="https://alx-ryan.github.io/website/">
+<meta property="og:image" content="https://alx-ryan.github.io/website/images/screenshot-1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FocusFirst — Block Apps, Earn Screen Time">
+<meta name="twitter:description" content="The iPhone app blocker that rewards focus. Focus first. Scroll later.">
+<meta name="twitter:image" content="https://alx-ryan.github.io/website/images/screenshot-1.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured data: the app -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "FocusFirst Screen Time Control",
+  "alternateName": "FocusFirst — Block Apps, Earn Screen Time",
+  "operatingSystem": "iOS 26.1 or later",
+  "applicationCategory": "ProductivityApplication",
+  "description": "FocusFirst blocks distracting apps on iPhone until you earn screen time by focusing on what matters. Block apps like TikTok and Instagram, set your earning rate, and spend earned time guilt-free.",
+  "author": { "@type": "Person", "name": "Michael Riehl" },
+  "installUrl": "https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126",
+  "screenshot": [
+    "https://alx-ryan.github.io/website/images/screenshot-2.png",
+    "https://alx-ryan.github.io/website/images/screenshot-4.png",
+    "https://alx-ryan.github.io/website/images/screenshot-6.png"
+  ],
+  "image": "https://alx-ryan.github.io/website/images/app-icon.png"
+}
+</script>
+<!-- Structured data: FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do I block apps on my iPhone?", "acceptedAnswer": { "@type": "Answer", "text": "You can block apps on iPhone with Apple's built-in Screen Time (Settings → Screen Time → App Limits), but limits are easy to dismiss with one tap. FocusFirst uses Apple's Screen Time framework to place a real shield over distracting apps that only opens when you spend screen time you've earned by focusing." } },
+    { "@type": "Question", "name": "What does it mean to earn screen time?", "acceptedAnswer": { "@type": "Answer", "text": "With FocusFirst, time spent in productive apps — studying, reading, language learning — converts into scroll time at a rate you choose, for example 10 minutes of focus earns 3 minutes of scrolling. Blocked apps stay shielded until you spend earned time to unlock them." } },
+    { "@type": "Question", "name": "Can I block TikTok without deleting it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Add TikTok to your blocked list in FocusFirst and it stays installed but shielded. When you open it, FocusFirst shows how much earned time you have and asks whether you want to spend it — so TikTok becomes a deliberate choice instead of a reflex." } },
+    { "@type": "Question", "name": "Why can't I just ignore the limits like Apple Screen Time?", "acceptedAnswer": { "@type": "Answer", "text": "Apple's App Limits show an 'Ignore Limit' button, which most people learn to tap without thinking. FocusFirst replaces that with a trade: the shield only opens by spending time you've actually earned by focusing, so there's no free bypass to build a habit around." } },
+    { "@type": "Question", "name": "Does FocusFirst require a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. FocusFirst requires a subscription, or a one-time Lifetime purchase if you'd rather pay once. No account is required and your data syncs privately via iCloud." } },
+    { "@type": "Question", "name": "Does FocusFirst help with phone addiction?", "acceptedAnswer": { "@type": "Answer", "text": "FocusFirst is built on habit replacement rather than willpower: it blocks compulsive apps and rewards time spent on meaningful ones, which research suggests is more effective than restriction alone. It is a behavior-change tool, not a medical treatment." } }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <img src="images/app-icon.png" alt="FocusFirst app icon" width="34" height="34">
+      Focus<span>First</span>
+    </a>
+    <a class="nav-link" href="#how-it-works">How it works</a>
+    <a class="nav-link" href="#screenshots">Screenshots</a>
+    <a class="nav-link" href="#guides">Guides</a>
+    <a class="nav-link" href="#faq">FAQ</a>
+    <a class="nav-cta" href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126">Download</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Screen time control for iPhone</p>
+      <h1>The app blocker that lets you <span class="accent">earn</span> your screen&nbsp;time.</h1>
+      <p class="lede">FocusFirst blocks the apps that pull you off course — TikTok, Instagram, whatever yours are — until you've put real time into what matters. Focus on studying, reading, or building, and unlock scroll time as a reward. Focus first. Scroll later.</p>
+      <div class="hero-ctas" id="download">
+        <a class="appstore-badge" href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126" aria-label="Download FocusFirst on the App Store">
+          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" width="180" height="56" loading="lazy">
+        </a>
+        <a class="ghost-cta" href="#how-it-works">See how it works</a>
+      </div>
+      <p class="hero-meta">
+        <span>✓ Subscription or Lifetime purchase</span>
+        <span>✓ No account required</span>
+        <span>✓ Private iCloud sync</span>
+        <span>✓ iOS 26.1+</span>
+      </p>
+    </div>
+    <div class="hero-shot">
+      <img class="phone phone-a" src="images/screenshot-2.png" alt="FocusFirst Today dashboard on iPhone showing 45 minutes of available earned screen time, focus score, and daily insights" width="598" height="1300" fetchpriority="high">
+      <img class="phone phone-b" src="images/screenshot-3.png" alt="FocusFirst screen explaining how productive apps unlock addictive ones, with streaks and bonus earned time" width="598" height="1300" fetchpriority="high">
+      <p class="float-chip chip-1">10m focus → <em>3m scroll</em><br>you set the rate</p>
+      <p class="float-chip chip-2"><em>45 min earned</em> · spend it<br>anywhere, guilt-free</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="how-it-works" aria-labelledby="hiw-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">How it works</span>
+      <h2 id="hiw-title">Blocking apps is easy. Staying blocked is the hard part.</h2>
+      <p>Willpower runs out; a system doesn't. FocusFirst turns your distracting apps into a reward for time spent on the things you actually care about.</p>
+    </div>
+    <div class="steps">
+      <article class="step reveal">
+        <span class="num">1</span>
+        <h3>Block your distracting apps</h3>
+        <p>Pick the apps, categories, and websites that pull you away — social media, video, news. FocusFirst shields them with Apple's Screen Time framework, so the block is real, not a suggestion you can swipe past.</p>
+      </article>
+      <article class="step reveal">
+        <span class="num">2</span>
+        <h3>Focus on what matters</h3>
+        <p>Choose your focus apps — study tools, language learning, reading, work — or run a focus timer. The Focus Engine converts every focused minute into earned scroll time at a rate you control.</p>
+        <span class="rate">10m focus → 3m scroll</span>
+      </article>
+      <article class="step reveal">
+        <span class="num">3</span>
+        <h3>Spend your time guilt-free</h3>
+        <p>Open a blocked app and FocusFirst shows your balance: "You've earned 43m. Spend 5m to unlock now." Scrolling stops being a failure and becomes something you chose — and paid for with focus.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots" class="shots-section" aria-labelledby="shots-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Inside the app</span>
+      <h2 id="shots-title">Built to feel calm, not punishing</h2>
+      <p>No shame stats, no red warnings. Just a clear picture of where your attention went — and a fair trade for getting it back.</p>
+    </div>
+    <div class="shots" role="list">
+      <figure role="listitem" class="reveal">
+        <img src="images/screenshot-2.png" alt="FocusFirst Today dashboard showing available earned screen time, focus score, multiplier and daily insights" loading="lazy" width="598" height="1300">
+        <figcaption>Your day at a glance: earned time, focus score, and where your focus went.</figcaption>
+      </figure>
+      <figure role="listitem" class="reveal">
+        <img src="images/screenshot-3.png" alt="FocusFirst screen showing productive app usage unlocking addictive apps, with streaks and bonus earned time" loading="lazy" width="598" height="1300">
+        <figcaption>Use productive apps to unlock the addictive ones — streaks and bonuses reward consistency.</figcaption>
+      </figure>
+      <figure role="listitem" class="reveal">
+        <img src="images/screenshot-6.png" alt="FocusFirst Focus Engine screen with daily focus goal, earning rate of 10 minutes focus to 3 minutes scroll, and lists of focus and blocked apps" loading="lazy" width="598" height="1300">
+        <figcaption>The Focus Engine: set your daily goal and the rate focus converts to scroll time.</figcaption>
+      </figure>
+      <figure role="listitem" class="reveal">
+        <img src="images/screenshot-4.png" alt="FocusFirst shield over Instagram asking whether to spend 5 minutes of earned screen time to unlock" loading="lazy" width="598" height="1300">
+        <figcaption>The moment that changes the habit: spend earned time, or not now.</figcaption>
+      </figure>
+      <figure role="listitem" class="reveal">
+        <img src="images/screenshot-5.png" alt="FocusFirst progress screen with weekly focus totals, active days, and bar charts of focused time versus earned scroll used" loading="lazy" width="598" height="1300">
+        <figcaption>Progress you can see: focused hours, active days, trends week after week.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="guides" aria-labelledby="guides-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Guides</span>
+      <h2 id="guides-title">Take back your attention, one habit at a time</h2>
+      <p>Practical, honest guides to blocking apps, cutting screen time, and building focus on iPhone — with or without FocusFirst.</p>
+    </div>
+    <div class="guides-grid">
+      <a class="guide-card reveal" href="guides/how-to-block-apps-on-iphone.html">
+        <span class="tag">App blocking</span>
+        <h3>How to Block Apps on iPhone</h3>
+        <p>Every way to block distracting apps — Screen Time, Downtime, and blockers that actually hold.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-reduce-screen-time-on-iphone.html">
+        <span class="tag">Screen time</span>
+        <h3>How to Reduce Screen Time on iPhone</h3>
+        <p>A realistic system for cutting hours off your screen time without deleting everything.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-stop-doomscrolling.html">
+        <span class="tag">Habits</span>
+        <h3>How to Stop Doomscrolling</h3>
+        <p>Why your feed keeps winning at 11pm — and the replacement habit that beats it.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-block-tiktok-on-iphone.html">
+        <span class="tag">App blocking</span>
+        <h3>How to Block TikTok on iPhone</h3>
+        <p>Block TikTok without deleting it — and make opening it a deliberate choice.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-block-instagram-on-iphone.html">
+        <span class="tag">App blocking</span>
+        <h3>How to Block Instagram on iPhone</h3>
+        <p>Temporarily block Instagram for exams, deadlines, or a proper reset.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/earn-screen-time.html">
+        <span class="tag">The method</span>
+        <h3>Earn Screen Time: Why Rewards Beat Restrictions</h3>
+        <p>The psychology behind earning your scroll time instead of just banning it.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/best-app-blocker-iphone.html">
+        <span class="tag">Comparison</span>
+        <h3>Best App Blocker for iPhone in 2026</h3>
+        <p>Hard blockers, friction apps, and reward systems compared — which one sticks?</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-focus-on-studying.html">
+        <span class="tag">Students</span>
+        <h3>How to Focus on Studying With Your Phone Nearby</h3>
+        <p>Turn your phone from your worst study distraction into your accountability system.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/how-to-break-phone-addiction.html">
+        <span class="tag">Habits</span>
+        <h3>How to Break Phone Addiction</h3>
+        <p>Skip the shame. A habit-replacement approach to compulsive phone use.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+      <a class="guide-card reveal" href="guides/screen-time-limits-that-actually-work.html">
+        <span class="tag">Screen time</span>
+        <h3>Screen Time Limits That Actually Work</h3>
+        <p>Keep tapping "Ignore Limit"? Here's why — and the limit design you can't cheat.</p>
+        <span class="go">Read the guide →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">FAQ</span>
+      <h2 id="faq-title">Questions, answered honestly</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details>
+        <summary>How do I block apps on my iPhone?</summary>
+        <div class="faq-body">
+          <p>Apple's built-in Screen Time (Settings → Screen Time → App Limits) can limit apps, but the "Ignore Limit" button makes it easy to slip. FocusFirst uses the same Apple Screen Time framework to place a real shield over your distracting apps — one that only opens when you spend screen time you've earned by focusing.</p>
+          <a class="learn-more" href="guides/how-to-block-apps-on-iphone.html">Learn more: How to block apps on iPhone →</a>
+        </div>
+      </details>
+      <details>
+        <summary>What does "earn screen time" actually mean?</summary>
+        <div class="faq-body">
+          <p>Time you spend in your focus apps — studying, reading, language learning — converts into scroll time at a rate you choose (say, 10 minutes of focus earns 3 minutes of scrolling). Your blocked apps stay shielded until you choose to spend that earned balance. Scrolling becomes a reward you gave yourself, not a lapse.</p>
+          <a class="learn-more" href="guides/earn-screen-time.html">Learn more: How earning screen time works →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Can I block TikTok without deleting it?</summary>
+        <div class="faq-body">
+          <p>Yes. Add TikTok to your blocked apps and it stays installed but shielded. When you tap it, FocusFirst shows your earned balance and asks if you want to spend it — turning a reflex into a decision. Most of the time, "Not now" wins.</p>
+          <a class="learn-more" href="guides/how-to-block-tiktok-on-iphone.html">Learn more: How to block TikTok on iPhone →</a>
+        </div>
+      </details>
+      <details>
+        <summary>How is this different from Apple's Screen Time limits?</summary>
+        <div class="faq-body">
+          <p>Apple's App Limits ask you nicely — and the "Ignore Limit" button trains you to tap past them. FocusFirst has no free bypass. The only way through the shield is spending time you actually earned, so the system stays honest even when your willpower doesn't.</p>
+          <a class="learn-more" href="guides/screen-time-limits-that-actually-work.html">Learn more: Screen time limits that actually work →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Will this actually reduce my screen time?</summary>
+        <div class="faq-body">
+          <p>The mechanic is simple math: when scroll time has to be earned at a 10-to-3 rate, mindless checking stops being free. You'll still scroll — that's the point, it's not a punishment app — but the hours shift toward the things you chose. Your Progress tab shows the trend week by week.</p>
+          <a class="learn-more" href="guides/how-to-reduce-screen-time-on-iphone.html">Learn more: How to reduce screen time on iPhone →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Does FocusFirst help with doomscrolling and phone addiction?</summary>
+        <div class="faq-body">
+          <p>FocusFirst is built on habit replacement, not restriction alone: it blocks the compulsive loop and rewards the behavior you want more of. That's the approach behavior research consistently favors over pure willpower. It's a behavior-change tool, not a medical treatment — but it changes the default.</p>
+          <a class="learn-more" href="guides/how-to-break-phone-addiction.html">Learn more: How to break phone addiction →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Can I use it to focus while studying?</summary>
+        <div class="faq-body">
+          <p>That's one of the most common uses. Set your study apps (or a focus timer) as earners, block your social apps, and your phone flips from working against your study session to keeping score for it. Streaks and multipliers reward showing up daily.</p>
+          <a class="learn-more" href="guides/how-to-focus-on-studying.html">Learn more: How to focus on studying →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Does FocusFirst require a subscription?</summary>
+        <div class="faq-body">
+          <p>Yes. FocusFirst requires a subscription — or a one-time Lifetime purchase if you'd rather pay once and be done. No account is needed, and your data syncs privately through iCloud. Pricing is shown up front in the app before you commit.</p>
+          <a class="learn-more" href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126">See pricing on the App Store →</a>
+        </div>
+      </details>
+      <details>
+        <summary>What about my privacy?</summary>
+        <div class="faq-body">
+          <p>FocusFirst runs on Apple's Screen Time framework, which is designed so apps never see the content of what you do on your phone. There's no account, and sync happens through your private iCloud. The full policy is short enough to actually read.</p>
+          <a class="learn-more" href="privacy.html">Read the privacy policy →</a>
+        </div>
+      </details>
+      <details>
+        <summary>Which iPhones does it support?</summary>
+        <div class="faq-body">
+          <p>FocusFirst requires iOS 26.1 or later. It's a native iPhone app built on Apple's own Screen Time technology — no VPN tricks, no profiles to install, nothing that slows your phone down.</p>
+          <a class="learn-more" href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126">Get it on the App Store →</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" aria-label="Download FocusFirst">
+  <div class="cta-dark">
+    <div class="inner">
+      <div>
+        <h2>Your attention is going somewhere. <span class="accent">Choose where.</span></h2>
+        <p>Download FocusFirst, block the apps that spend your time for you, and start earning it back — starting with your very next focus session.</p>
+        <div class="hero-ctas">
+          <a class="appstore-badge" href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126" aria-label="Download FocusFirst on the App Store">
+            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/white/en-us" alt="Download on the App Store" width="180" height="56" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="cta-shot">
+        <img src="images/screenshot-1.png" alt="FocusFirst — earn your screen time. No guilt, just progress." loading="lazy" width="598" height="1300">
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="./"><img src="images/app-icon.png" alt="" width="34" height="34">Focus<span>First</span></a>
+        <p style="margin-top:14px; max-width:30em;">Block apps, earn screen time. A calmer, fairer way to control your screen time on iPhone. Focus first. Scroll later.</p>
+      </div>
+      <div>
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="guides/how-to-block-apps-on-iphone.html">Block apps on iPhone</a></li>
+          <li><a href="guides/how-to-reduce-screen-time-on-iphone.html">Reduce screen time</a></li>
+          <li><a href="guides/how-to-stop-doomscrolling.html">Stop doomscrolling</a></li>
+          <li><a href="guides/earn-screen-time.html">Earn screen time</a></li>
+          <li><a href="guides/best-app-blocker-iphone.html">Best app blocker for iPhone</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>App</h4>
+        <ul>
+          <li><a href="https://apps.apple.com/us/app/focusfirst-screen-time-control/id6774385126">Download on the App Store</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="mailto:alexryandev@pm.me?subject=FocusFirst">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">© 2026 FocusFirst. Apple, the Apple logo, and App Store are trademarks of Apple Inc. FocusFirst requires a subscription or one-time Lifetime purchase.</p>
+  </div>
+</footer>
+
+</body>
+</html>
