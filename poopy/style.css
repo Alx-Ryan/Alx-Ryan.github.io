@@ -110,3 +110,4 @@ td { height: 2.7rem; }
 @media print {
   .sheet-related { display: none; }
 }
+.guide .byline { margin-top: 2rem; font-size: .9rem; color: #4c6358; }
