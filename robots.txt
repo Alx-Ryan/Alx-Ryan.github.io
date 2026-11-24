@@ -1,0 +1,4 @@
+User-agent: OAI-SearchBot
+Allow: /poopy/
+
+Sitemap: https://alx-ryan.github.io/poopy/sitemap.xml
