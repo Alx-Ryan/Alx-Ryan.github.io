@@ -24,6 +24,7 @@ nav a { font-weight: 600; font-size: .94rem; }
 .eyebrow { font-weight: 750; letter-spacing: .1em; font-size: .8rem; text-transform: uppercase; margin-bottom: 1.25rem; }
 h1, h2 { font-family: "DM Serif Text", Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1; letter-spacing: -.055em; text-wrap: balance; }
 h1 { font-size: clamp(4rem, 7.4vw, 7.4rem); }
+.hero h1 { font-size: clamp(3.1rem, 6.4vw, 6.2rem); }
 h2 { font-size: clamp(2.7rem, 4.3vw, 4.8rem); }
 h1 em { color: var(--leaf); }
 .intro .lead { max-width: 34rem; font-size: clamp(1.05rem, 1.4vw, 1.25rem); margin: 1.5rem 0; }
