@@ -84,3 +84,29 @@ td { height: 2.7rem; }
   td { height: 12mm; }
   tr { break-inside: avoid; }
 }
+.resources { padding-block: 2rem 4.5rem; }
+.guide-links { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem 3rem; margin-top: 2rem; }
+.guide-links article { border-top: 1px solid var(--line); padding-top: 1rem; }
+.guide-links h3 { margin: 0 0 .45rem; font-size: 1.25rem; line-height: 1.35; }
+.guide { max-width: 48rem; padding-block: clamp(2.5rem, 6vw, 5rem); }
+.guide h1 { font-size: clamp(2.8rem, 5.6vw, 5rem); }
+.guide h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); margin-top: 2.6rem; }
+.guide p { font-size: 1.1rem; margin-block: .9rem; }
+.guide .answer { font-size: 1.2rem; margin-top: 1.7rem; }
+.guide .source { font-size: .95rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.example caption { text-align: left; font-weight: 650; padding-block: .5rem; }
+.example th { width: auto; }
+.example th:first-child { width: 25%; }
+.example td { height: auto; }
+.scale { padding: 0; list-style: none; }
+.scale li { display: flex; align-items: center; gap: 1.3rem; border-bottom: 1px solid var(--line); padding: .65rem 0; }
+.scale img { object-fit: contain; width: 5.25rem; flex-shrink: 0; }
+.scale p { margin: 0; }
+.sheet-related { margin-bottom: 1rem; }
+.sheet-actions button:not(.button) { cursor: pointer; font: inherit; color: var(--ink); background: transparent; border: 0; text-decoration: underline; }
+@media (max-width: 42rem) {
+  .guide-links { grid-template-columns: 1fr; gap: 1.25rem; }
+}
+@media print {
+  .sheet-related { display: none; }
+}
